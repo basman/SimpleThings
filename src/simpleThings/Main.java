@@ -20,8 +20,8 @@ public class Main {
         //mm.run();
 
         // Aufgaben 10 bis 12
-        Primzahlen prim = new Primzahlen(100);
-        prim.eingabeUndAnsage();
+        //Primzahlen prim = new Primzahlen(100);
+        //prim.eingabeUndAnsage();
     }
 
 }
