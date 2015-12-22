@@ -1,13 +1,14 @@
 package simpleThings;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Created by Roman on 19.12.2015.
  */
 public class Primzahlen {
     private int max;
-    private int[] primZahlen;
+    private Integer[] primZahlen;
 
     public Primzahlen(int max) {
         // Dieser Konstruktor wendet das Sieb des Eratostenes an, um Primzahlen zwischen 0 und max zu ermitteln.
@@ -31,12 +32,20 @@ public class Primzahlen {
         }
 
         // kopiere alle übrig gebliebenen Zahlen in ein Array ohne Lücken
-        primZahlen = new int[max - 2 - count];
+        primZahlen = new Integer[max - 2 - count];
         for(int i=0, j=0; i<ungesiebt.length; i++) {
             if (ungesiebt[i] >= 0) {
                 primZahlen[j++] = ungesiebt[i];
             }
         }
+    }
+
+    /**
+     * Könnte für Aufgabe 13 hilfreich sein.
+     * @return Der Rückgabewert ist eine Liste, über die man mit for(Integer x: prim.getPrimzahlen()) { ... } laufen kann.
+     */
+    public Iterable<Integer> getPrimzahlen() {
+        return Arrays.asList(primZahlen);
     }
 
     public void zeigeAllePrimzahlen() {

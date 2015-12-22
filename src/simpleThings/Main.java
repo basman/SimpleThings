@@ -1,9 +1,5 @@
 package simpleThings;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -22,6 +18,14 @@ public class Main {
         // Aufgaben 10 bis 12
         //Primzahlen prim = new Primzahlen(100);
         //prim.eingabeUndAnsage();
+
+        // Aufgabe 13 (anstelle mit 120 kannst du auch mit 12 anfangen)
+        //Faktoren faktoren = new Faktoren(120);
+        //faktoren.work();
+
+        // Aufgabe 14
+        //Faktoren faktoren = new Faktoren(5405400);
+        //faktoren.work();
     }
 
 }

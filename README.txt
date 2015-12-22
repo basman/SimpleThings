@@ -29,6 +29,12 @@ Java Aufgaben für Einsteiger
 
 12. Verändere das Programm, so dass Primzahlen bis 1000 behandelt werden können.
 
+13. Aktiviere Aufgabe 13 in Main.main(). Du findest die Aufgabenstellung in simpleThings.Faktoren.
+
+14. Erzeuge nun das Ergebnis für 5405400.
+
+15. Optimiere die Primzahlenberechnung in simpleThings.Primzahlen, so dass nach Löschen der 2er-Reihe die 4er-Reihe erst gar nicht
+    mehr durchlaufen wird.
 
 Referenzen:
 
