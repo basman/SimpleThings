@@ -8,8 +8,8 @@ Java Aufgaben für Einsteiger
 
 3. Passe das Programm erneut an, so dass die 7er-Reihe nur bis 70 ausgegeben wird.
 
-4. Kommentiere in der main() Funktion den Aufruf von reihe() in Zeilen 11 und 12 aus und aktiviere den Aufruf von zahlEingeben()
-   in Zeilen 15 und 16. Starte das Java Programm wie vorhin. Diesmal wirst du in der Ausgabe aufgefordert, eine Zahl einzugeben.
+4. Kommentiere in der main() Funktion den Aufruf von reihe() in Zeilen 7 und 8 aus und aktiviere den Aufruf von zahlEingeben()
+   in Zeilen 11 und 12. Starte das Java Programm wie vorhin. Diesmal wirst du in der Ausgabe aufgefordert, eine Zahl einzugeben.
    Bestätige die Eingabe mit Enter.
 
 5. Ändere das Programm ab, so dass 5 Zahlen eingelesen werden und anschliessend die Summe berechnet wird.
